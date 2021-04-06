@@ -11,8 +11,8 @@ configurations that are available to run in IntelliJ in the top right corner.
 Opening the service in IntelliJ should show a prompt to set up the gradle project.
 Once that is done, you should be able to run the service with `Run Local Server`.
 The server wil be listening at http://127.0.0.1:8000 with the routes
-- GET http://0.0.0.0:8000/api/v1/user-info
-- POST http://0.0.0.0:8000/api/v1/user-info, a convenience route for inserting data to retrieve, with body
+- GET http://127.0.0.1:8000/api/v1/user-info
+- POST http://127.0.0.1:8000/api/v1/user-info, a convenience route for inserting data to retrieve, with body
 ```
 {
     "email": "em",
