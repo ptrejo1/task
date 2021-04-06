@@ -1,0 +1,11 @@
+/.gradle
+
+!/.idea
+/.idea/*
+!/.idea/runConfigurations
+
+/out
+/build
+*.iml
+*.ipr
+*.iws
