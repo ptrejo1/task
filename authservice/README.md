@@ -12,7 +12,7 @@ proxy with CA signed certificates would be the way to go.
 The recommended way to run the service is through IntelliJ. The service comes with already setup run
 configurations that are available to run in IntelliJ in the top right corner. 
 
-Opening the service in IntelliJ should show a prompt to set up the gradle project. Once that is done, 
+Opening the service in IntelliJ should show a prompt to Load Gradle Project. Once that is done, 
 run the task `autheservice [generateJks]` that's located in the run configs dropdown to create a 
 certificate. Then you should be able to run the service with `Run Local Server`.
 The server will be listening at https://127.0.0.1:8443 with routes

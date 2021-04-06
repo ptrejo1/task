@@ -8,7 +8,7 @@ when it comes time to deploy the service.
 The recommended way to run the service is through IntelliJ. The service comes with already setup run 
 configurations that are available to run in IntelliJ in the top right corner. 
 
-Opening the service in IntelliJ should show a prompt to set up the gradle project.
+Opening the service in IntelliJ should show a prompt to Load Gradle Project.
 Once that is done, you should be able to run the service with `Run Local Server`.
 The server wil be listening at http://127.0.0.1:8000 with the routes
 - GET http://127.0.0.1:8000/api/v1/user-info
